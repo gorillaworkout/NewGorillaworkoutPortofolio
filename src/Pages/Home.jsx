@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import './Home.scss'
+import '../Styles/Home.scss'
 import GorillaLogo from '../Assets/newbggw.png'
 import ImgEffect from '../Components/Effect/img_effect'
 import Linkedin from '../Assets/linkedin.png'
@@ -65,11 +65,14 @@ export default function Home(){
                     </button>
 
                     }
+                    <div className="btn-menu-mobile">
+
+                    </div>
                    
                 </div>
                 <div className="box-img-home">
-                
                 </div>
+                
             </div>
         </>
     )

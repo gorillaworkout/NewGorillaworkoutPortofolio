@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './LoadingAwal.scss'
+import '../../Styles/LoadingAwal.scss'
 import {Link,NavLink} from 'react-router-dom'
 import Jello from 'react-reveal/Jello';
 
