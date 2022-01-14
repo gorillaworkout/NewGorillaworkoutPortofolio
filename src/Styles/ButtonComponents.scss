@@ -12,12 +12,13 @@
     text-align: left;
     align-items: center;
     margin-bottom:10px;
-    transition:1.5s;
+    transition:0.5s;
 
     &:hover{
         cursor: pointer;
-        position: relative;
-        left:50px;
+        transform:translate(50px,0);
+        // position: relative;
+        // left:50px;
     }
 }
 
@@ -34,11 +35,10 @@
     font-family: "Fira Mono";
     text-align: left;
     margin-bottom:10px;
-    transition:1.5s;
+    transition:0.5s;
     &:hover{
         cursor: pointer;
-        position: relative;
-        left:50px;
+        transform:translate(50px,0);
     }
 }
 .bayu{
@@ -53,39 +53,16 @@
     text-decoration: none;
     font-family: "Fira Mono";
     text-align: left;
-    transition:2s;
+    transition:0.5s;
     &:hover{
         cursor: pointer;
-        position: relative;
-        left:50px;
-        transition:2s;
-        // width:100%;
+        transform:translate(50px,0);
+        
     }
 }
 
 
-.headerold{
-    width:90%;
-    // padding:10px;
-    height:auto;
-    font-size:1em;
-    color:white;
-    font-weight:800;
-    margin:0px !important;
-    background-color: transparent;
-    border:none;
-    text-decoration: none;
-    font-family: "Fira Mono";
-    text-align: left;
-    transition:2s;
-    &:hover{
-        cursor: pointer;
-        position: relative;
-        left:50px;
-        transition:2s;
-        // width:100%;
-    }
-}
+
 
 .headernew{
     width:90%;
@@ -101,11 +78,13 @@
     text-align: left;
     align-items: center;
     margin-bottom:10px;
-    transition:1.5s;
+    transition:0.5s;
 
     &:hover{
         cursor: pointer;
+        transform:translate(50px,0) !important;
+        // background-color: red;
         position: relative;
-        left:50px;
+        // left:50px;
     }
 }

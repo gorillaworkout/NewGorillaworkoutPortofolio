@@ -7,6 +7,8 @@ import Contact from './Pages/Contact/Contact';
 import Work from './Pages/Work/Work';
 
 import LoadingAwal from './Pages/LoadingAwal/LoadingAwal.jsx'
+// import "node_modules/video-react/dist/video-react.css"; // import css
+
 function App() {
   return (
     <Routes>
