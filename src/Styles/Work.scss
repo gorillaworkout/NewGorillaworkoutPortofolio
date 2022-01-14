@@ -1,0 +1,46 @@
+.container-work{
+    width:100%;
+    height:100vh;
+    display: flex;
+    border:1px solid black;
+    
+        .awssld {
+            .work-about{
+                width:100%;
+                height:100%;
+                background-color: black !important;
+                position: absolute;
+                top:0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                .work-about-left{
+                    width:60%;
+                    height:100%;
+                    border:1px solid pink;
+                }
+                .work-about-header{
+                    width:20%;
+                    height:100%;
+                    border:1px solid blue;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    
+                    .box-for-btn-header{
+                        // width:200px;
+                        border:1px solid pink;
+                        position: relative;
+                        top:50px;
+                    }
+                  
+                }
+                
+            }
+    
+            .awssld__bullets {
+                display: none !important;;
+            }
+        }
+}

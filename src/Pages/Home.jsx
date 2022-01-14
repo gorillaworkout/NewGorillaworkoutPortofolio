@@ -9,9 +9,12 @@ import {FaInstagram,FaFacebookF,FaWhatsapp} from 'react-icons/fa'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import RoundSocialMedia from '../Components/SocialMedia/RoundSocialMedia'
+import AwesomeSlider from 'react-awesome-slider';
 import Jello from 'react-reveal/Jello';
 import HeadShake from 'react-reveal/HeadShake';
 import {Link} from 'react-router-dom'
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import ButtonName from '../Components/Button/ButtonName'
 
 export default function Home(){
     AOS.init();
@@ -20,50 +23,64 @@ export default function Home(){
     const [isWork,setIsWork]=useState(false)
     const [isContact,setIsContact]=useState(false)
 
-    const [dataToSocialMedia,setDatatoSocialMedia]=useState({
-        // allSubCategory:Product.allSubCategory
-    })
-
-
-    
     return (
         <>
             <div className="big-container-home">
                 <div className="menu-home">
                     {
                     isAbout ? 
-                    <Link to="/about-me" className="hello" onMouseLeave={()=>setIsAbout(false)}>
-                        About
-                    </Link>
-                    :
-                    <button className="hello" onMouseEnter={()=>setIsAbout(true)}>
-                        Hello.
-                    </button>
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/about-me',
+                            className:'hello',
+                            onFunc:()=>setIsAbout(false),
+                            title:'About'
+                        }}/>
+                        :
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'hello',
+                            onFunc:()=>setIsAbout(true),
+                            title:'Hello'
+                        }}/>
                     }
                      
                     {
                         isWork?
-                    <Link to="/work" className="iam" onMouseLeave={()=>setIsWork(false)}>
-                        Work
-                    </Link>
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/work',
+                            className:'iam',
+                            onFunc:()=>setIsWork(false),
+                            title:'Work'
+                        }}/>
                         :
 
-                    <button className="iam" onMouseOver={()=>setIsWork(true)}>
-                        I am
-                    </button>
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'iam',
+                            onFunc:()=>setIsWork(true),
+                            title:'I am'
+                        }}/>
                     }
 
 
                     {
                         isContact ? 
-                    <Link to="/contact" className="bayu" onMouseLeave={()=>setIsContact(false)}>
-                        Contact
-                    </Link>
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/contact',
+                            className:'bayu',
+                            onFunc:()=>setIsContact(false),
+                            title:'Work'
+                        }}/>
                         :
-                    <button className="bayu" onMouseOver={()=>setIsContact(true)}>
-                        Bayu
-                    </button>
-
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'bayu',
+                            onFunc:()=>setIsContact(true),
+                            title:'Bayu'
+                        }}/>
                     }
                     <div className="btn-menu-mobile">
 

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
 
-export default function About(){
+export default function Contact(){
 
     return (
         <>
-            <p>About</p>
+            <p>Contact</p>
         </>
     )
 }
