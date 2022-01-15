@@ -62,6 +62,10 @@ body{
         }
      }
 
+    @include tablet { //768px
+
+    } 
+
     @include mobile450{
       
         .menu-home {
