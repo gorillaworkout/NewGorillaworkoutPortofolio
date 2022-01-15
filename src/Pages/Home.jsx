@@ -69,10 +69,10 @@ export default function Home(){
                         isContact ? 
                         <ButtonName arr={{
                             isLink:true,
-                            Link:'/contact',
+                            Link:'/contact-me',
                             className:'bayu',
                             onFunc:()=>setIsContact(false),
-                            title:'Work'
+                            title:'Contact'
                         }}/>
                         :
                         <ButtonName arr={{

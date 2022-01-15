@@ -14,8 +14,8 @@ function App() {
     <Routes>
       <Route exact path = '/' element={<LoadingAwal new_params={"testing"}/>}/>
       <Route exact path = '/Home' element={<Home new_params={"testing"}/>}/>
-      <Route exact path = '/About' element={<About new_params={"testing"}/>}/>
-      <Route exact path = '/Contact' element={<Contact new_params={"testing"}/>}/>
+      <Route exact path = '/about-me' element={<About new_params={"testing"}/>}/>
+      <Route exact path = '/contact-me' element={<Contact new_params={"testing"}/>}/>
       <Route exact path = '/Work' element={<Work new_params={"testing"}/>}/>
 
     </Routes>
