@@ -11,7 +11,7 @@
 }
 
 @mixin mobile450{
-    @media screen and (max-width:420px) {
+    @media screen and (max-width:450px) {
         @content;
     }
 }
