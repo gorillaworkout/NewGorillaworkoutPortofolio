@@ -1,3 +1,5 @@
+@import 'media_queries';
+
 .hello{
     width:90%;
     height:auto;
@@ -13,6 +15,9 @@
     align-items: center;
     margin-bottom:10px;
     transition:0.5s;
+    @include mobile450 {
+        z-index:4 !important;
+    }
 
     &:hover{
         cursor: pointer;
@@ -20,6 +25,22 @@
         // position: relative;
         // left:50px;
     }
+}
+.hello-mobile {
+    width:90%;
+    height:auto;
+    font-size:120px;
+    color:white;
+    font-weight:800;
+    margin:0px !important;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    font-family: "Fira Mono";
+    text-align: left;
+    align-items: center;
+    margin-bottom:10px;
+    transition:0.5s;
 }
 
 .iam{
@@ -41,6 +62,21 @@
         transform:translate(50px,0);
     }
 }
+.iam-mobile {
+    width:90%;
+    height:auto;
+    font-size:120px;
+    color:#27aae1;
+    font-weight:800;
+    margin:0px !important;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    font-family: "Fira Mono";
+    text-align: left;
+    margin-bottom:10px;
+    transition:0.5s;
+}
 .bayu{
     width:90%;
     height:auto;
@@ -57,10 +93,23 @@
     &:hover{
         cursor: pointer;
         transform:translate(50px,0);
-        
     }
 }
 
+.bayu-mobile {
+    width:90%;
+    height:auto;
+    font-size:120px;
+    color:#27aae1;
+    font-weight:800;
+    margin:0px !important;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    font-family: "Fira Mono";
+    text-align: left;
+    transition:0.5s;
+}
 
 
 

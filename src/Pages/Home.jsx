@@ -23,6 +23,13 @@ export default function Home(){
     const [isWork,setIsWork]=useState(false)
     const [isContact,setIsContact]=useState(false)
 
+
+    const onAnywhere=()=>{
+        console.log('function jalan')
+        setIsAbout(!isAbout)
+        setIsWork(!isWork)
+        setIsContact(!isContact)
+    }
     return (
         <>
             <div className="big-container-home">
@@ -87,9 +94,70 @@ export default function Home(){
                     </div>
                    
                 </div>
-                <div className="box-img-home">
+
+                <div className="menu-home-mobile">
+                {
+                    isAbout ? 
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/about-me',
+                            className:'hello-mobile',
+                            onFunc:()=>setIsAbout(false),
+                            title:'About'
+                        }}/>
+                        :
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'hello-mobile',
+                            onFunc:()=>setIsAbout(true),
+                            title:'Hello'
+                        }}/>
+                    }
+                     
+                    {
+                        isWork?
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/work',
+                            className:'iam-mobile',
+                            onFunc:()=>setIsWork(false),
+                            title:'Work'
+                        }}/>
+                        :
+
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'iam-mobile',
+                            onFunc:()=>setIsWork(true),
+                            title:'I am'
+                        }}/>
+                    }
+
+
+                    {
+                        isContact ? 
+                        <ButtonName arr={{
+                            isLink:true,
+                            Link:'/contact-me',
+                            className:'bayu-mobile',
+                            onFunc:()=>setIsContact(false),
+                            title:'Contact'
+                        }}/>
+                        :
+                        <ButtonName arr={{
+                            isLink:false,
+                            className:'bayu-mobile  ',
+                            onFunc:()=>setIsContact(true),
+                            title:'Bayu'
+                        }}/>
+                    }
                 </div>
                 
+                <div className="box-img-home">
+                </div>
+            </div>
+            <div className="mobile-footer" onClick={onAnywhere}>
+                <p className="bounce-2">TAP ANYWHERE</p>
             </div>
         </>
     )

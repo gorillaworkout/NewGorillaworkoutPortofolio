@@ -111,7 +111,11 @@ export default function Work(){
                             <div className="body-work-right">
                                 <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} />
                             </div>
+                            <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
+                            </div>
                         </div>
+   
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
@@ -182,6 +186,9 @@ export default function Work(){
                             </div>
                             <div className="body-work-right">
                                 <YouTube videoId="Iof5zN3yM0s" opts={opts} onReady={onReady} />
+                            </div>
+                            <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
                             </div>
                         </div>
                     </div>
@@ -261,6 +268,9 @@ export default function Work(){
                                 <YouTube videoId="za53BxgNHNc" opts={opts} onReady={onReady} />
                             </div>
                         </div>
+                        <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
+                            </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
@@ -337,6 +347,9 @@ export default function Work(){
                                 <YouTube videoId="RDUbQgzOIqM" opts={opts} onReady={onReady} />
                             </div>
                         </div>
+                        <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
+                            </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
@@ -409,6 +422,9 @@ export default function Work(){
                                 <YouTube videoId="btv3-DlBIe0" opts={opts} onReady={onReady} />
                             </div>
                         </div>
+                        <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
+                            </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
@@ -488,6 +504,9 @@ export default function Work(){
                             </div>
                             <div className="body-work-right">
                                 <YouTube videoId="TK_NJOsiMb8" opts={opts} onReady={onReady} />
+                            </div>
+                            <div className="body-footer-mobile ">
+                                <p className="bounce-2">Slide Anywhere</p>
                             </div>
                         </div>
                     </div>
