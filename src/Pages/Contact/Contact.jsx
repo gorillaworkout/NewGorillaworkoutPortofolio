@@ -14,7 +14,6 @@ export default function Contact(){
                 <div className="menu-home">  
                     <Link to="/home"  className="header-logo-about">
                         <img src={GorillaLogo} alt="" />
-                        
                     </Link> 
                     <div className="box-aboutme">
                         <p>CONTACT</p>
