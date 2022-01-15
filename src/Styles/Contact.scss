@@ -1,0 +1,17 @@
+@import 'media_queries';
+
+@include mobile450{
+
+    .big-container-about {
+        .menu-home{
+            .box-aboutme {
+                width: 100% !important;
+
+                .btn-code {
+                    flex-wrap: wrap !important;
+                    justify-content: center !important;;
+                }
+            }
+        }
+    }
+}

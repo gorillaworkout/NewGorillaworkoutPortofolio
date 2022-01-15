@@ -34,6 +34,19 @@ body{
             .bayu{
                 font-size:70px !important;
             }
+
+
+            .box-aboutme {
+                width: 100% !important;
+                p{
+                    text-align: center !important;;
+                }
+
+                .btn-code {
+                    flex-wrap: wrap !important;
+                    justify-content: center !important;;
+                }
+            }
         }
         .box-img-home{
             width:50% !important;

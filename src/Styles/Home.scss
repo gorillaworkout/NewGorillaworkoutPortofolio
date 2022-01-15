@@ -12,6 +12,7 @@ body{
     height:100vh;
     // border:1px solid pink;
     background-color: transparent;
+    // background-color: red;
     opacity: 1;
     position: absolute;
     bottom:0;
@@ -69,7 +70,8 @@ body{
         .menu-home-mobile {
             display: flex !important;
             width:50% !important;
-            z-index:4 !important;
+            // z-index:4 !important;
+            z-index: auto !important;
             padding-left:5px;
             .hello-mobile {
                 width:100%;
