@@ -70,11 +70,14 @@ $color: #dcbb6e;
                                 position: fixed;
                                 bottom:0;
                                 p{
-                                    color:white;
-                                    font-weight:700;
+                                    color:$front;
+                                    font-weight:700 !important;
                                     animation-duration: 2s;
                                     animation-iteration-count: infinite;
+                                    font-size:1em   ;
+                                    
                                 }
+                                
                                 .bounce-2 {
                                     animation-name: bounce-2;
                                     animation-timing-function: ease;
