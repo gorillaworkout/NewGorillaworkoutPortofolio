@@ -25,6 +25,9 @@ export default function About(){
                         Have a strong desire in working as a front-end, <br/>
                         I'm a problem solver and a persistent person when facing a challenge <br/>
                         </p> 
+                        <div className="box-skill">
+                            
+                        </div>
                     </div>
                 </div>
                 <div className="box-img-home">

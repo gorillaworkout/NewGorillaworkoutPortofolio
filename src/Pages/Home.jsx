@@ -15,6 +15,7 @@ import HeadShake from 'react-reveal/HeadShake';
 import {Link} from 'react-router-dom'
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import ButtonName from '../Components/Button/ButtonName'
+import Flash from 'react-reveal/Flash';
 
 export default function Home(){
     AOS.init();
@@ -48,7 +49,7 @@ export default function Home(){
                             isLink:false,
                             className:'hello',
                             onFunc:()=>setIsAbout(true),
-                            title:'Hello'
+                            title:'Hello.'
                         }}/>
                     }
                      
@@ -98,6 +99,7 @@ export default function Home(){
                 <div className="menu-home-mobile">
                 {
                     isAbout ? 
+                        
                         <ButtonName arr={{
                             isLink:true,
                             Link:'/about-me',

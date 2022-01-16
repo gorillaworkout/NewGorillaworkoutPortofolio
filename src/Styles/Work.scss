@@ -35,7 +35,7 @@ $color: #dcbb6e;
                                 .body-work-left  {
                                     width:100% !important;
                                     .list-code {
-                                        width:70% !important;
+                                        width:80% !important;
                                     }
                                     .body-detail-left {
                                         .judul-project {
@@ -109,7 +109,14 @@ $color: #dcbb6e;
                                 .body-work-left  {
                                     width:100% !important;
                                     .list-code {
-                                        width:70% !important;
+                                        width:80% !important;
+                                        .title-option{
+                                            .box-option{
+                                                p {
+                                                    font-size:0.4em !important;
+                                                }
+                                            }
+                                        }
                                     }
                                     .body-detail-left {
                                         .judul-project {
