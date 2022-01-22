@@ -44,7 +44,80 @@ export default function Work(){
                     cssModule={[CoreStyles, AnimationStyles]}
                     mobileTouch={true}
                     >
-                     <div  className="work-about">
+                    <div  className="work-about">
+                        <div className="box-header-work">
+                            <Link to="/home" className="icon-logo-header">
+                                <img src={GorillaLogo} alt="" />
+                            </Link>
+                        </div>
+                        <div className="body-work">
+                        <div className="body-work-left">
+                                <div className="body-detail-left">
+                                    <div className="judul-project">
+                                        <p className="popout">
+                                            <span>S</span>
+                                            <span>O</span>
+                                            <span>L</span>
+                                            <span>D</span>
+                                            <span>A</span>
+                                            <span>Y</span>
+                                            <span>S</span>
+                                        </p>
+                                    </div>
+                                    <p id="detail-text">Soldays is an e-commerce from Vantsing International</p>
+                                    <div className="btn-code">
+                                        <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FaLinkedinIn className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://github.com/gorillaworkout"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FiGithub className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/gorillaworkout/"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <AiOutlineInstagram className="icon-linkedin" style={{top:'2px'}}/>
+                                        </a>
+                                    </div>
+                                    <div className="list-code">
+                                        <div className="title-list">
+                                            <p>/FRONT END</p>
+                                        </div>
+                                        <div className="title-option">
+                                            
+                                            <div className="box-option button">
+                                                <p>/REACT JS </p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/BOOTSTRAP</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/REDUX</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/AXIOS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="body-work-right">
+                            <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} />
+                        </div>
+                        <div className="body-footer-mobile ">
+                            <p className="bounce-2">Slide Anywhere</p>
+                        </div>
+                        </div>
+                    </div>
+                    {/* BATAS */}
+                    <div  className="work-about">
                         <div className="box-header-work">
                             <Link to="/home" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />

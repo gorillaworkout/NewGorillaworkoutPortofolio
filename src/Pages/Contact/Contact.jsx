@@ -5,7 +5,7 @@ import GorillaLogo from '../../Assets/gorillalogops.png'
 import {Link} from 'react-router-dom'
 import {AiOutlineInstagram,AiOutlineMail} from 'react-icons/ai'
 import {FiGithub} from 'react-icons/fi'
-import {FaLinkedinIn,FaFacebookF} from 'react-icons/fa'
+import {FaLinkedinIn,FaFacebookF,FaWhatsapp} from 'react-icons/fa'
 export default function Contact(){
 
     return (
@@ -50,6 +50,12 @@ export default function Contact(){
                                     <rect x="0" y="0" fill="none" width="100%" height="100%"/>
                                 </svg>
                                 <AiOutlineMail className="icon-linkedin" style={{top:'2px'}}/>
+                            </a>
+                            <a href={`https://wa.me/6287785192296/?text=Hi Bayu!`}  target="_blank" className="btn btn-1">
+                                <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                </svg>
+                                <FaWhatsapp className="icon-linkedin" style={{top:'2px'}}/>
                             </a>
                         </div>
                     </div>
