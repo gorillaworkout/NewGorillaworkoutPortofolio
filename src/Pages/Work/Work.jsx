@@ -46,7 +46,7 @@ export default function Work(){
                     >
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -112,14 +112,14 @@ export default function Work(){
                             <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} />
                         </div>
                         <div className="body-footer-mobile ">
-                            <p className="bounce-2">Slide Anywhere</p>
+                            <p className="bounce-2">Slide Left / Right</p>
                         </div>
                         </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -185,7 +185,7 @@ export default function Work(){
                                 <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} />
                             </div>
                             <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                         </div>
    
@@ -193,7 +193,7 @@ export default function Work(){
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -261,14 +261,14 @@ export default function Work(){
                                 <YouTube videoId="Iof5zN3yM0s" opts={opts} onReady={onReady} />
                             </div>
                             <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                         </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -342,13 +342,13 @@ export default function Work(){
                             </div>
                         </div>
                         <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -421,13 +421,13 @@ export default function Work(){
                             </div>
                         </div>
                         <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -496,13 +496,13 @@ export default function Work(){
                             </div>
                         </div>
                         <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                     </div>
                     {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
-                            <Link to="/home" className="icon-logo-header">
+                            <Link to="/" className="icon-logo-header">
                                 <img src={GorillaLogo} alt="" />
                             </Link>
                         </div>
@@ -579,7 +579,7 @@ export default function Work(){
                                 <YouTube videoId="TK_NJOsiMb8" opts={opts} onReady={onReady} />
                             </div>
                             <div className="body-footer-mobile ">
-                                <p className="bounce-2">Slide Anywhere</p>
+                                <p className="bounce-2">Slide Left / Right</p>
                             </div>
                         </div>
                     </div>

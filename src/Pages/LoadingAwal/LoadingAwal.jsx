@@ -11,7 +11,7 @@ export default function LoadingAWal (){
             <Jello>
                 <div className="body-home3">
                     {/* <Link to='/home4'> */}
-                    <a href="/home" className="home-3">
+                    <a href="/" className="home-3">
                     <span></span>
                     <span></span>
                     <span></span>
