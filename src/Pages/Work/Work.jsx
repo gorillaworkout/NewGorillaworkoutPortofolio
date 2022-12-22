@@ -55,6 +55,161 @@ export default function Work(){
                                 <div className="body-detail-left">
                                     <div className="judul-project">
                                         <p className="popout">
+                                            <span>R</span>
+                                            <span>U</span>
+                                            <span>M</span>
+                                            <span>A</span>
+                                            <span>H</span>
+                                            <span>S</span>
+                                            <span>I</span>
+                                            <span>A</span>
+                                            <span>P</span>
+                                            <span>K</span>
+                                            <span>E</span>
+                                            <span>R</span>
+                                            <span>J</span>
+                                            <span>A</span>
+                                        </p>
+                                    </div>
+                                    <p id="detail-text">Rumah Siap Kerja is an e-commerce from RSK for selling </p>
+                                    <div className="btn-code">
+                                        <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FaLinkedinIn className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://github.com/gorillaworkout"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FiGithub className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/gorillaworkout/"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <AiOutlineInstagram className="icon-linkedin" style={{top:'2px'}}/>
+                                        </a>
+                                    </div>
+                                    <div className="list-code">
+                                        <div className="title-list">
+                                            <p>/FRONT END</p>
+                                        </div>
+                                        <div className="title-option">
+                                            
+                                            <div className="box-option button">
+                                                <p>/VUE JS </p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/TAILWIND</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/VUEX</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/AXIOS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="body-work-right">
+                            <YouTube videoId="80HTRK4KqUc" opts={opts} onReady={onReady} />
+                        </div>
+                        <div className="body-footer-mobile ">
+                            <p className="bounce-2">Slide Left / Right</p>
+                        </div>
+                        </div>
+                    </div>
+                    {/* BATAS */}
+                    <div  className="work-about">
+                        <div className="box-header-work">
+                            <Link to="/" className="icon-logo-header">
+                                <img src={GorillaLogo} alt="" />
+                            </Link>
+                        </div>
+                        <div className="body-work">
+                        <div className="body-work-left">
+                                <div className="body-detail-left">
+                                    <div className="judul-project">
+                                        <p className="popout">
+                                            <span>A</span>
+                                            <span>P</span>
+                                            <span>G</span>
+                                            <span>G</span>
+                                            <span>A</span>
+                                            <span>R</span>
+                                            <span>U</span>
+                                            <span>D</span>
+                                            <span>A</span>
+                                        </p>
+                                    </div>
+                                    <p id="detail-text">Garuda APG is an website for election president APG, <br /> PS:no image or detail cause privacy</p>
+                                    <div className="btn-code">
+                                        <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FaLinkedinIn className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://github.com/gorillaworkout"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FiGithub className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/gorillaworkout/"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <AiOutlineInstagram className="icon-linkedin" style={{top:'2px'}}/>
+                                        </a>
+                                    </div>
+                                    <div className="list-code">
+                                        <div className="title-list">
+                                            <p>/FRONT END</p>
+                                        </div>
+                                        <div className="title-option">
+                                            
+                                            <div className="box-option button">
+                                                <p>/PHP </p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/BOOTSTRAP</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/CODE IGNITER 3</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/OTP</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="body-work-right">
+                            {/* <YouTube videoId="80HTRK4KqUc" opts={opts} onReady={onReady} /> */}
+                        </div>
+                        <div className="body-footer-mobile ">
+                            <p className="bounce-2">Slide Left / Right</p>
+                        </div>
+                        </div>
+                    </div>
+                    {/* BATAS */}
+                    <div  className="work-about">
+                        <div className="box-header-work">
+                            <Link to="/" className="icon-logo-header">
+                                <img src={GorillaLogo} alt="" />
+                            </Link>
+                        </div>
+                        <div className="body-work">
+                        <div className="body-work-left">
+                                <div className="body-detail-left">
+                                    <div className="judul-project">
+                                        <p className="popout">
                                             <span>S</span>
                                             <span>O</span>
                                             <span>L</span>
@@ -109,7 +264,7 @@ export default function Work(){
                                 </div>
                         </div>
                         <div className="body-work-right">
-                            <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} />
+                            {/* <YouTube videoId="gJP_WJ8b6Uk" opts={opts} onReady={onReady} /> */}
                         </div>
                         <div className="body-footer-mobile ">
                             <p className="bounce-2">Slide Left / Right</p>
