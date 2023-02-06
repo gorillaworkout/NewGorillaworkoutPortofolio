@@ -38,6 +38,7 @@ body{
 
             .box-aboutme {
                 width: 100% !important;
+                height:auto !important;
                 p{
                     text-align: center !important;;
                 }
@@ -148,9 +149,9 @@ body{
                   //     }
                   //   }
                     
-                    @media(min-width: 600px) {
-                      margin: 0 1em 2em;
-                    }
+                    // @media(min-width: 600px) {
+                    //   margin: 0 1em 2em;
+                    // }
                     
                     &:hover { text-decoration: none; }
                     
