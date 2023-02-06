@@ -44,6 +44,91 @@ export default function Work(){
                     cssModule={[CoreStyles, AnimationStyles]}
                     mobileTouch={true}
                     >
+                          
+                    <div  className="work-about">
+                        <div className="box-header-work">
+                            <Link to="/" className="icon-logo-header">
+                                <img src={GorillaLogo} alt="" />
+                            </Link>
+                        </div>
+                        <div className="body-work">
+                        <div className="body-work-left">
+                                <div className="body-detail-left">
+                                    <div className="judul-project">
+                                        <p className="popout">
+                                            <span>S</span>
+                                            <span>H</span>
+                                            <span>I</span>
+                                            <span>N</span>
+                                            <span>T</span>
+                                            <span>A</span>
+                                            <span>V</span>
+                                            <span>R</span>
+                                            <span>A</span>
+                                            <span>N</span>
+                                            <span>A</span>
+                                            <span>L</span>
+                                            <span>Y</span>
+                                            <span>T</span>
+                                            <span>I</span>
+                                            <span>C</span>
+                                            <span>S</span>
+                                        </p>
+                                    </div>
+                                    <p id="detail-text">Analytics millealab adalah website untuk melihat nilai nilai para murid</p>
+                                    <a href="https://millealab-analytics.firebaseapp.com/" target="_blank" style={{color:'white'}}>Analytics web</a>
+                                    <div className="btn-code">
+                                        <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FaLinkedinIn className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://github.com/gorillaworkout"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FiGithub className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/gorillaworkout/"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <AiOutlineInstagram className="icon-linkedin" style={{top:'2px'}}/>
+                                        </a>
+                                    </div>
+                                    <div className="list-code">
+                                        <div className="title-list">
+                                            <p>/FRONT END</p>
+                                        </div>
+                                        <div className="title-option">
+                                            
+                                            <div className="box-option button">
+                                                <p>/VUE JS </p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/SCSS</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/VUEX</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/AXIOS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="body-work-right">
+                            <YouTube videoId="80HTRK4KqUc" opts={opts} onReady={onReady} />
+                        </div>
+                        <div className="body-footer-mobile ">
+                            <p className="bounce-2">Slide Left / Right</p>
+                        </div>
+                        </div>
+                    </div>
+                    {/* BATAS */}
                     <div  className="work-about">
                         <div className="box-header-work">
                             <Link to="/" className="icon-logo-header">
@@ -103,6 +188,88 @@ export default function Work(){
                                             </div>
                                             <div className="box-option button">
                                                 <p>/TAILWIND</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/VUEX</p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/AXIOS</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <div className="body-work-right">
+                            <YouTube videoId="80HTRK4KqUc" opts={opts} onReady={onReady} />
+                        </div>
+                        <div className="body-footer-mobile ">
+                            <p className="bounce-2">Slide Left / Right</p>
+                        </div>
+                        </div>
+                    </div>
+                    {/* BATAS */}
+                    <div  className="work-about">
+                        <div className="box-header-work">
+                            <Link to="/" className="icon-logo-header">
+                                <img src={GorillaLogo} alt="" />
+                            </Link>
+                        </div>
+                        <div className="body-work">
+                        <div className="body-work-left">
+                                <div className="body-detail-left">
+                                    <div className="judul-project">
+                                        <p className="popout">
+                                            <span>S</span>
+                                            <span>H</span>
+                                            <span>I</span>
+                                            <span>N</span>
+                                            <span>T</span>
+                                            <span>A</span>
+                                            <span>V</span>
+                                            <span>R</span>
+                                            <span>L</span>
+                                            <span>I</span>
+                                            <span>C</span>
+                                            <span>E</span>
+                                            <span>N</span>
+                                            <span>S</span>
+                                            <span>E</span>
+                                        </p>
+                                    </div>
+                                    <p id="detail-text">Individual License adalah website untuk membeli license untuk salah satu product shinta vr</p>
+                                    <a href="https://license.millealab.com/" target="_blank" style={{color:'white'}}>Individual License web</a>
+                                    <div className="btn-code">
+                                        <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FaLinkedinIn className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://github.com/gorillaworkout"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <FiGithub className="icon-linkedin"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/gorillaworkout/"  target="_blank" class="btn btn-1">
+                                            <svg>
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                                            </svg>
+                                            <AiOutlineInstagram className="icon-linkedin" style={{top:'2px'}}/>
+                                        </a>
+                                    </div>
+                                    <div className="list-code">
+                                        <div className="title-list">
+                                            <p>/FRONT END</p>
+                                        </div>
+                                        <div className="title-option">
+                                            
+                                            <div className="box-option button">
+                                                <p>/VUE JS </p>
+                                            </div>
+                                            <div className="box-option button">
+                                                <p>/SCSS</p>
                                             </div>
                                             <div className="box-option button">
                                                 <p>/VUEX</p>
