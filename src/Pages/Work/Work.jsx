@@ -157,6 +157,7 @@ export default function Work(){
                                         </p>
                                     </div>
                                     <p id="detail-text">Rumah Siap Kerja is an e-commerce from RSK for selling Prakerja</p>
+                                    <a href="rumahsiapkerja.com" target="_blank" style={{color:'white'}}>Rumah Siap Kerja web</a>
                                     <div className="btn-code">
                                         <a href="https://www.linkedin.com/in/bayu-darmawan-09470a1b8/"   class="btn btn-1">
                                             <svg>
