@@ -18,7 +18,7 @@ export const Bayu=()=>{
         <h1> {selectedFile?.name}
         {selectedFile?.type}
         {selectedFile?.size}
-        selected file</h1>
+        selected file testing</h1>
         <input
           ref={fileInputRef}
           type="file"
