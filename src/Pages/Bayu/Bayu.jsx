@@ -15,10 +15,14 @@ export const Bayu=()=>{
       };
     return (
         <>
-        <h1> {selectedFile?.name}
-        {selectedFile?.type}
-        {selectedFile?.size}
-        selected file</h1>
+
+        <h1>
+          size : {selectedFile.size}
+        </h1>
+        <h1>    name: {selectedFile.name}
+          
+          </h1>
+          <h1>type:{selectedFile.type}</h1>
         <input
           ref={fileInputRef}
           type="file"
