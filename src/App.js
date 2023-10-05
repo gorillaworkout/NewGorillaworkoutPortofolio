@@ -5,6 +5,7 @@ import Home from './Pages/Home.jsx'
 import About from './Pages/About/About.jsx'
 import Contact from './Pages/Contact/Contact';
 import Work from './Pages/Work/Work';
+import Bayu from './Pages/Bayu/Bayu.jsx'
 
 import LoadingAwal from './Pages/LoadingAwal/LoadingAwal.jsx'
 // import "node_modules/video-react/dist/video-react.css"; // import css
@@ -17,6 +18,7 @@ function App() {
       <Route exact path = '/about-me' element={<About new_params={"testing"}/>}/>
       <Route exact path = '/contact-me' element={<Contact new_params={"testing"}/>}/>
       <Route exact path = '/Work' element={<Work new_params={"testing"}/>}/>
+      <Route exact path = '/bayu' element={<Bayu new_params={"testing"}/>}/>
 
     </Routes>
   );
