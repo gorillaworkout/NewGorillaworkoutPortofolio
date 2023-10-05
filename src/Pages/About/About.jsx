@@ -23,7 +23,7 @@ export default function About(){
                                 /> <br/> 
                         someone who changes his career into a programmer, <br/>
                         Have a strong desire in working as a front-end, <br/>
-                        I'm a problem solver and a persistent person when facing a challenge <br/>
+                        I'm a problem solver and a persistent person when facing a challenge!<br/>
                         </p> 
                         <div className="box-skill">
                             
