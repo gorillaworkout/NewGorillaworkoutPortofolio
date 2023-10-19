@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-
+import Cookiebot from "../../Components/Cookiebot"
 export const Bayu = () => {
   const fileInputRef = useRef(null);
 
@@ -14,13 +14,13 @@ export const Bayu = () => {
   };
   return (
     <>
+    <Cookiebot/>
       <h1>size : {selectedFile?.size / (1024*1024)} mb</h1>
       <h1> name: {selectedFile?.name}</h1>
       <h1>type:{selectedFile?.type}</h1>
       <input
         ref={fileInputRef}
         type="file"
-        // accept="image/*"
         accept=".jpg, .jpeg, .tiff, .png, .gif, .bmp, .heic, .heif"
         onChange={handleFileChange}
         className="hidden"
