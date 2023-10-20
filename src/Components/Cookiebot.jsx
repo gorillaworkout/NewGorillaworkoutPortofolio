@@ -9,9 +9,14 @@ function Cookiebot() {
     script.setAttribute('data-cbid', '1acfa841-3aea-4130-ae8f-a35cf0d48965');
     script.setAttribute('type', 'text/javascript');
     document.head.appendChild(script);
+    console.log(script,'script')
+    console.log('cookie but is running')
   }, []);
 
   return null; // This component doesn't render anything
 }
 
 export default Cookiebot;
+
+// https://consentcdn.cookiebot.com/consentconfig/1acfa841-3aea-4130-ae8f-a35cf0d48965/localhost/configuration.js
+// https://consent.cookiebot.com/1acfa841-3aea-4130-ae8f-a35cf0d48965/cd.js

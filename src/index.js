@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom'
 function loadCookiebot() {
   const script = document.createElement('script');
   script.id = 'CookieDeclaration';
-  script.src = 'https://consent.cookiebot.com/833787b2-df56-499c-bf41-32fbb791b29a/cd.js';
+  script.src = 'https://consent.cookiebot.com/1acfa841-3aea-4130-ae8f-a35cf0d48965/cd.js';
   script.type = 'text/javascript';
   script.async = true;
   document.body.appendChild(script);
