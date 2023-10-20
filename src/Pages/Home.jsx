@@ -16,7 +16,7 @@ import {Link} from 'react-router-dom'
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import ButtonName from '../Components/Button/ButtonName'
 import Flash from 'react-reveal/Flash';
-
+import Cookiebot from '../Components/Cookiebot'
 export default function Home(){
     AOS.init();
 
@@ -33,6 +33,7 @@ export default function Home(){
     }
     return (
         <>
+        <Cookiebot/>
             <div className="big-container-home">
                 <div className="menu-home">
                     {
