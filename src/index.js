@@ -16,7 +16,7 @@ function loadCookiebot() {
 }
 
 // Load the Cookiebot script
-loadCookiebot();
+// loadCookiebot();
 
 ReactDOM.render(
   <React.StrictMode>
