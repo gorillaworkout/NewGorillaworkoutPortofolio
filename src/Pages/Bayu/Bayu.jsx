@@ -28,7 +28,7 @@ export const Bayu = () => {
   // }, []);
   return (
     <>
-      <Cookiebot />
+      {/* <Cookiebot /> */}
       <h1>size : {selectedFile?.size / (1024 * 1024)} mb</h1>
       <h1> name: {selectedFile?.name}</h1>
       <h1>type:{selectedFile?.type}</h1>
